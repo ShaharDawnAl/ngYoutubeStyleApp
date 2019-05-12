@@ -1,0 +1,8 @@
+
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let video of videos">
+        <a class="list-group-item-action" style="cursor: pointer;"  (click)="onSelect(video)" >
+        {{video.title}}<br>
+        </a>
+    </li>
+</ul>
